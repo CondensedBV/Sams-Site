@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+}
+p {
+	font-weight: 400;
+	text-align: center;
+	width: 50vw;
+	margin: auto;
+	color: lightgray;
+}
+h1,h2 {
+	margin-bottom: 0;
+}

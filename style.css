@@ -6,17 +6,26 @@
 	font-weight: 600;
 	font-family: Lato, sans-serif;
 	background-color: var(--BackColor);
+	background: url(Images/background.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 @font-face {
 	font-family: "Lato";
 	font-style: normal;
 	src: local('Lato Regular'), url(https://fonts.gstatic.com/s/lato/v14/UyBMtLsHKBKXelqf4x7VRQ.woff2);
 }
+h1 {
+	text-align: center;
+}
 body {
 	padding-top: 65px;
 	text-align: center;
 	color: white;
 }
+
+/* Navigation Bar */
 nav {
 	display: flex;
 	position: fixed;
@@ -53,6 +62,8 @@ nav #logo {
 	background-position: left center;
 	color: transparent;
 }
+
+/*grid related*/
 .grid {
 	display: inline-flex;
 	max-width:65%;
@@ -131,7 +142,33 @@ nav #logo {
 	color: white;
 	font-weight: 400;
 }
+.Accordion {
+	display: inline-block;
+	transition: 0.5s;
+}
+.Accordion:hover>p {
+	background: -webkit-linear-gradient(top,var(--DarkAccent), var(--DarkAccent))	
+}
+.Accordion>p {
+	padding: 0.5%;
+	background: -webkit-linear-gradient(top,var(--Accent), var(--DarkAccent));	
+	display: block;
+}
+.Accordion.Show .info {
+	height: auto;
+	font-size: initial;
+}
+.Accordion .info {
+	display: block;
+	height: 0;
+	font-size: 0;
+}
+/*logo on over page*/
+body > img {
+width: 35%;
+}
 
+/*scrollbars*/
 ::-webkit-scrollbar {
 	padding: 5px;
 	width: 6px;
@@ -142,6 +179,7 @@ nav #logo {
 	width: 6px;
 }
 
+/*responsiveness of store page*/
 @media only screen and (max-width: 960px) {
 	.game {
 		width: 45% !important;

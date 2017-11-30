@@ -16,7 +16,7 @@ function AddTile(game) {
 	info.classList.add("info");
 	GameDiv.appendChild(info);
 
-
+	//checks if there is a discount
 	if (game.Discount > 0) {
 		var discount = document.createElement("p");
 		discount.classList.add("discount");
@@ -45,6 +45,8 @@ function AddTile(game) {
 	extra.appendChild(p);
 	return GameDiv;
 }
+
+//retrieve Games and add to the grid.
 for (var i = 0; i < Games.length; i++) {
 	AddTile(Games[i]);
 }
