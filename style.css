@@ -21,6 +21,7 @@
 
 h1 {
 	text-align: center;
+	user-select: none;
 }
 
 p {
@@ -35,6 +36,12 @@ body {
 
 
 /*makes images undraggable*/
+
+* {
+	user-drag: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
 
 img {
 	user-drag: none;
@@ -254,8 +261,9 @@ body>img {
 .extend {
 	transition: 0.5s;
 	z-index: 9999;
-	background: -webkit-linear-gradient(top, rgb(219, 219, 219), rgb(67, 105, 121));
-	padding-top: 65px;
+	background-position: fixed;
+	background-size: cover;
+	padding-top: 85px;
 	opacity: 1;
 	position: fixed;
 	display: block;
@@ -267,6 +275,21 @@ body>img {
 	height: 100%;
 }
 
+.extend h1 {
+	background-color: rgba(0, 0, 0, 0.75);
+	padding: 0;
+	padding-bottom: 2.5%;
+	margin: 0;
+}
+
+.extend p {
+	background-color: rgba(0, 0, 0, 0.75);
+	padding-bottom: 2.5%;
+	margin: 0;
+	padding-left: 5vmin;
+	padding-right: 5vmin;
+}
+
 .extend .close {
 	display: inline-block;
 	float: right;
@@ -274,8 +297,8 @@ body>img {
 	transition: filter 1s;
 	background: url(Images/UI/exit.png);
 	background-size: contain;
-	width: 4.5em;
-	height: 4.5em;
+	width: 6vmin;
+	height: 6vmin;
 }
 
 .close:hover {
@@ -290,7 +313,7 @@ img::selection {
 }
 
 ::selection {
-	background-color: skyblue;
+	background-color: var(--Accent3);
 }
 
 ::-webkit-scrollbar {
@@ -307,6 +330,9 @@ img::selection {
 
 /*responsiveness of store page*/
 
+
+/*for small screens like tablets*/
+
 @media only screen and (max-width: 960px) {
 	.game {
 		width: 45% !important;
@@ -318,6 +344,20 @@ img::selection {
 	nav {
 		align-items: center !important;
 	}
+	.extend {
+		padding: 0;
+		padding-top: 70px;
+		padding-right: 10;
+		width: 100%;
+	}
+	.extend p {
+		padding: 5;
+		width: 100%;
+	}
+	.extend h1 {
+		width: 100% !important;
+		padding-right: -5px !important;
+	}
 	#logo {
 		width: 45px !important;
 		height: 45px !important;
@@ -328,6 +368,9 @@ img::selection {
 		background-image: url(Images/branding/small_logo.png) !important;
 	}
 }
+
+
+/*for even smaller screens like smartphones*/
 
 @media only screen and (max-width: 580px) {
 	#logo {

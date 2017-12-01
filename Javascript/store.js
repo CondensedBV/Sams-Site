@@ -6,6 +6,7 @@ var grid = document.getElementsByClassName("grid")[0];
 function AddTile(game) {
 	var GameDiv = document.createElement("div");
 	GameDiv.classList.add("game");
+	GameDiv.setAttribute("data-game", game.ImageUrl);
 	grid.appendChild(GameDiv);
 
 	//add image background
@@ -68,10 +69,12 @@ for (var i = 0; i < Games.length; i++) {
 function OpenStore(game) {
 	game.onclick = undefined;
 	game.classList.add("extend");
+	game.style.backgroundImage = "url(" + game.parentElement.getAttribute("data-game") + ")";
 }
 
 function closeGame(element) {
 	element.parentElement.classList.remove("extend");
+	element.parentElement.style.backgroundImage = "";
 	setTimeout(function () {
 		element.parentElement.onclick = function () {
 			OpenStore(element.parentElement);
