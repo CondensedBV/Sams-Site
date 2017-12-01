@@ -1,5 +1,8 @@
 "use strict";
+
+//region GameGrid
 var grid = document.getElementsByClassName("grid")[0];
+
 function AddTile(game) {
 	var GameDiv = document.createElement("div");
 	GameDiv.classList.add("game");
@@ -35,7 +38,17 @@ function AddTile(game) {
 
 	var extra = document.createElement("div");
 	extra.classList.add("extra");
+	extra.onclick = function () {
+		OpenStore(extra);
+	};
 	GameDiv.appendChild(extra);
+
+	var closebutton = document.createElement("span");
+	closebutton.onclick = function () {
+		closeGame(closebutton);
+	};
+	closebutton.classList.add("close");
+	extra.appendChild(closebutton);
 
 	var h1 = document.createElement("h1");
 	h1.innerHTML = game.Name;
@@ -50,3 +63,20 @@ function AddTile(game) {
 for (var i = 0; i < Games.length; i++) {
 	AddTile(Games[i]);
 }
+//endregion
+//region GameInfo
+function OpenStore(game) {
+	game.onclick = undefined;
+	game.classList.add("extend");
+}
+
+function closeGame(element) {
+	element.parentElement.classList.remove("extend");
+	setTimeout(function () {
+		element.parentElement.onclick = function () {
+			OpenStore(element.parentElement);
+		};
+	}, 1000);
+
+}
+//#endregion
