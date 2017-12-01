@@ -89,4 +89,54 @@ var Games = [
 		Discount: 0,
 		ImageUrl: "Images/Games/Csgo.jpg"
 	},
+	{
+		Name: "Left 4 Dead 2",
+		Description: "Left 4 Dead 2 (L4D2), dat zich afspeelt in de zombieapocalyps, is het langverwachte vervolg op het prijswinnende Left 4 Dead, de beste coöperatieve game van 2008. Deze coöperatieve actiehorror-FPS neemt jou en je vrienden mee door de steden, moerassen en begraafplaatsen van het diepe zuiden.",
+		Price: 19.99,
+		Discount: 0,
+		ImageUrl: "Images/Games/left4dead2.jpg"
+	},
+	{
+		Name: "Half-Life 2",
+		Description: "1998. HALF-LIFE veroorzaakt een schok in de gamewereld met de combinatie van denderende actie en een samenhangende, pakkende verhaallijn. De debuutgame van Valve wint meer dan vijftig game-of-the-year-awards, voordat het door PC Gamer wordt uitgeroepen tot 'Best PC Game Ever'.",
+		Price: 19.99,
+		Discount: 99,
+		ImageUrl: "Images/Games/halflife2.jpg"
+	},
+	{
+		Name: "Plants vs. Zombies GOTY Edition",
+		Description: "Een volledig nieuw actie/strategie spel van PopCap, de makers van Bejeweld en Peggle! Zombies vallen je huis aan en je enige verdediging is je arsenaal planten! Bewapend met een vreemde kas vol met zombieschietende planten, zoals erwtenknallers en kersenbommen, moet je snel denken en nog sneller.",
+		Price: 4.99,
+		Discount: 0,
+		ImageUrl: "Images/Games/plantsvszombie.jpg"
+	},
+	{
+		Name: "Fallout 4",
+		Description: "Bethesda Game Studios, de bekroonde makers van Fallout 3 en The Elder Scrolls V: Skyrim, heten je welkom in de wereld van Fallout 4 - hun meest ambitieuze spel ooit, en de volgende generatie van open-world gaming.",
+		Price: 59.99,
+		Discount: 10,
+		ImageUrl:"Images/Games/fallout4.jpg"
+	},
+	{
+		Name: "Saints Row IV",
+		Description: " De President van de VS moet de aarde redden van buitenaardse overlord Zinyak met behulp van een arsenaal van grootmachten en vreemde wapens in de wildste open world spel ooit.",
+		Price: 19.99,
+		Discount: 0,
+		ImageUrl:"Images/Games/saintrow4.jpg"
+	},
+	{
+		Name: "Broforce",
+		Description: " Wanneer kwaad dreigt de wereld, de wereld roept Broforce - een ondergefinancierd, overdreven aangedreven paramilitaire organisatie omgaan uitsluitend in buitensporig geweld. Koppel uw lendenen met maximaal vier spelers om te draaien pistool als tientallen verschillende bros en elimineren de tegengestelde terroristische krachten die een bedreiging vormen",
+		Price: 13.99,
+		Discount: 0,
+		ImageUrl:"Images/Games/broforce.jpg"
+	},
+	{
+		Name: "Overcooked",
+		Description: " Gaar is een chaotische Bank co-op koken spel voor één tot vier spelers. Werken als een team, moeten u en uw collega koks bereiden, koken en serveren van een verscheidenheid van smakelijke orders voor de baying klanten storm uit in een huff.",
+		Price: 15.99,
+		Discount: 0,
+		ImageUrl:"Images/Games/Overcooked.jpg"
+	},
+
 ];
