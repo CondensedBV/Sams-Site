@@ -1,8 +1,9 @@
 :root {
 	--Accent: rgb(67, 105, 121);
-	--DarkAccent: #006586;
+	--DarkAccent: rgb(0, 101, 134);
 	--Accent2: #adff2f;
-	--BackColor: #00002c;
+	--Accent3: rgb(22, 111, 146);
+	--BackColor: rgb(0, 61, 80);
 	font-weight: 600;
 	font-family: Lato, sans-serif;
 	background-color: var(--BackColor);
@@ -19,205 +20,253 @@
 h1 {
 	text-align: center;
 }
+p {
+	font-weight: 400;
+}
 body {
 	padding-top: 65px;
 	text-align: center;
 	color: white;
 }
-
-/* Navigation Bar */
-nav {
-	display: flex;
-	position: fixed;
-	z-index: 999999;
-	left: 0;
-	right: 0;
-	top: 0;
-	background: -webkit-linear-gradient(bottom,var(--Accent), var(--DarkAccent));
-	color: white;
-	height: 50px;
-	align-items: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	font-weight: 700;
-}
-nav a {
-	text-decoration: none;
-	margin-right: 25px;
-	color: rgb(139, 139, 139);
-	transition: color 0.5s;
-	cursor: pointer;
-}
-nav a:hover {
-	Color: white;
-}
-nav #logo {
-	display: inline-block;
-	height: 100%;
-	width: 200px;
-	background: url(Images/branding/logo.png);
-	background-size: contain;
-	background-repeat:  no-repeat;
-	background-position: left center;
-	color: transparent;
+/*makes images undraggable*/
+img {
+	user-drag: none;
+	-moz-user-select: none;
+	 -webkit-user-drag: none;
 }
 
-/*grid related*/
-.grid {
-	display: inline-flex;
-	max-width:65%;
-	flex-wrap: wrap;
-}
-.grid .game {
-	display: inline-block;
-	position: relative;
-	flex-grow: 1;
-	width: 30%;
-	margin: 5px;
-	box-sizing: border-box;
-	text-align: right;
-	vertical-align: bottom;
-	padding-bottom: -1em;
-}
-.game img {
-	box-shadow: 0px 0px 32px 3px rgba(0,0,0,1);
-	max-width: 100%;
-}
-.game .info {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	display: block;
-	background-color: rgba(0,0,0,0.75);
-	float: right;
-	clear: right;
-	transition: opacity .5s;
-}
-.extra {
-	cursor:default;
-	opacity: 0;
-	padding: 0;
-	padding-left: 5%;
-	padding-right: 5%;
-	transition: 0.5s;
-	position: absolute;
-	top: 0;
-	left:0;
-	width: 90%;
-	height: 100%;
-	z-index: 5;
-	text-align: left;
-	overflow-y: scroll;
-	background: -webkit-linear-gradient(top, rgba(219, 219, 219,0.8),rgba(67, 105, 121,0.8));
-}
-.game:hover .extra {
-	opacity: 1;	
-}
-.extra h1 {
-	color: var(--DarkAccent);
-}
-.extra p {
-	color: white;
-}
-.game:hover .info {
-	opacity: 0;
-}
-.info p {
-	display: inline;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin: 0;
-}
-.info .discount {
-	font-weight: 400;
-	background: var(--Accent2);
-	color: black;
-}
-.info .original {
-	color:var(--Main);
-	text-decoration: line-through;
-}
-.info .price {
-	color: white;
-	font-weight: 400;
-}
-.Accordion {
-	display: inline-block;
-	transition: 0.5s;
-}
-.Accordion:hover>p {
-	background: -webkit-linear-gradient(top,var(--DarkAccent), var(--DarkAccent))	
-}
-.Accordion>p {
-	padding: 0.5%;
-	background: -webkit-linear-gradient(top,var(--Accent), var(--DarkAccent));	
-	display: block;
-}
-.Accordion.Show .info {
-	height: auto;
-	font-size: initial;
-}
-.Accordion .info {
-	display: block;
-	height: 0;
-	font-size: 0;
-}
-/*logo on over page*/
-body > img {
-width: 35%;
-}
-
-/*scrollbars*/
-::-webkit-scrollbar {
-	padding: 5px;
-	width: 6px;
-}
-::-webkit-scrollbar-thumb { 
-	border-radius: 10px;
-	background: rgba(0, 10, 0,0.2);
-	width: 6px;
-}
-
-/*responsiveness of store page*/
-@media only screen and (max-width: 960px) {
-	.game {
-		width: 45% !important;
-	}
-	.grid {
-		width: 100%;
-		max-width: 100%;
-	}
+/*NavigationBar */
 	nav {
-		align-items: center !important;
+		display: flex;
+		position: fixed;
+		z-index: 999999;
+		left: 0;
+		right: 0;
+		top: 0;
+		background: -webkit-linear-gradient(bottom,var(--Accent), var(--DarkAccent));
+		color: white;
+		height: 50px;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		font-weight: 700;
 	}
-	#logo {
-		width: 45px !important;
-		height: 45px !important;
-		margin-right: 10px;
+	nav a {
+		text-decoration: none;
+		margin-right: 25px;
+		color: #CCCCCC;
+		transition:color 0.5s;
+		cursor: pointer;
+	}
+	nav a:hover {
+		color: #999999;
+	}
+	nav #logo {
+		display: inline-block;
+		height: 100%;
+		width: 200px;
+		background: url(Images/branding/logo.png);
 		background-size: contain;
 		background-repeat:  no-repeat;
-		background-position:center;
-		background-image: url(Images/branding/small_logo.png) !important;
+		background-position: left center;
+		color: transparent;
 	}
-}
-@media only screen and (max-width: 580px) {
-	#logo {
-		display: none !important;
+
+/*Region
+grid related*/
+	.grid {
+		display: inline-flex;
+		max-width:65%;
+		flex-wrap: wrap;
+	}
+	.grid .game {
+		display: inline-block;
+		position: relative;
+		flex-grow: 1;
+		width: 30%;
+		margin: 5px;
+		box-sizing: border-box;
+		text-align: right;
+		vertical-align: bottom;
+		padding-bottom: -1em;
+	}
+	.game img {
+		box-shadow: 0px 0px 32px 3px rgba(0,0,0,1);
+		max-width: 100%;
+	}
+	.game .info {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		display: block;
+		background-color: rgba(0,0,0,0.75);
+		float: right;
+		clear: right;
+		transition: opacity .5s;
+	}
+	.extra {
+		cursor:default;
+		opacity: 0;
+		padding: 0;
+		padding-left: 5%;
+		padding-right: 5%;
+		transition: 0.5s;
+		position: absolute;
+		top: 0;
+		left:0;
+		width: 90%;
+		height: 100%;
+		z-index: 5;
+		text-align: left;
+		overflow-y: scroll;
+		background: -webkit-linear-gradient(top, rgba(219, 219, 219,0.8),rgba(67, 105, 121,0.8));
+	}
+	.game:hover .extra {
+		opacity: 1;	
 	}
 	.extra h1 {
-		font-size: 32px;
+		color: var(--DarkAccent);
 	}
 	.extra p {
-		font-size: 16px;
+		color: white;
+		font-weight: 700;
 	}
-	.game {
-	width: 100% !important;
+	.game:hover .info {
+		opacity: 0;
 	}
-	.discount {
-		display: none !important;
+	.info p {
+		display: inline;
+
+		padding-left: 5px;
+		padding-right: 5px;
+		margin: 0;
 	}
-	.original {
-		display: none !important;
+	.info .discount {
+		font-weight: 400;
+		background: var(--Accent2);
+		color: black;
 	}
-}
+	.info .original {
+		color:var(--Main);
+		text-decoration: line-through;
+	}
+	.info .price {
+		color: white;
+		font-weight: 400;
+	}
+
+
+/*Region
+Controls*/
+	.Accordion {
+		transition: 0.5s;
+	}
+	.Accordion>p {
+		user-select: none;
+		padding: 0.5%;
+		margin-bottom: 0;
+		background: -webkit-linear-gradient(bottom,var(--DarkAccent),var(--Accent3));	
+		display: block;
+		cursor: pointer;
+		font-weight: 700;
+		color: white;
+		border-radius: .5vmin;
+		box-shadow: 0px 0px 5px 1px rgba(44, 44, 44, 0.8);
+	}
+	.Accordion .icon {
+		display: inline-block;
+		background: url(Images/UI/expand.png);
+		background-size: contain;
+		float: right;
+		width: 1.5em;
+		height: 1.5em;
+	}
+	.Accordion.show .icon {
+		background: url(Images/UI/collapse.png);	
+		background-size: contain;
+	}
+	.Accordion.show .info {
+		height: auto;
+		padding: 2vmin;
+		opacity: 1;
+		box-shadow: inset 0px 0px 25px 0px rgba(44,44,44,0.2);		
+	}
+	.Accordion .info {
+		background: -webkit-linear-gradient(top, var(--Accent),var(--DarkAccent));	
+		height: 0;
+		opacity: 0;
+		font-weight: 400;
+		margin-top: 0;
+		margin-left: 1vmin;
+		margin-right: 1vmin;
+		transition: 0.5s, opacity 0.1s;
+		display: block;
+		border-bottom-left-radius: .5vmin;
+		border-bottom-right-radius: .5vmin;
+	}
+
+/*logo on over page*/
+	body > img {
+	width: 35%;
+	}
+
+/*few fixes*/
+	img::selection {
+		background-color: initial;
+	}
+	::selection {
+		background-color: skyblue;
+	}
+	::-webkit-scrollbar {
+		padding: 5px;
+		width: 6px;
+	}
+	::-webkit-scrollbar-thumb { 
+		border-radius: 10px;
+		background: rgba(0, 10, 0,0.2);
+		width: 6px;
+	}
+
+/*responsiveness of store page*/
+	@media only screen and (max-width: 960px) {
+		.game {
+			width: 45% !important;
+		}
+		.grid {
+			width: 100%;
+			max-width: 100%;
+		}
+		nav {
+			align-items: center !important;
+		}
+		#logo {
+			width: 45px !important;
+			height: 45px !important;
+			margin-right: 10px;
+			background-size: contain;
+			background-repeat:  no-repeat;
+			background-position:center;
+			background-image: url(Images/branding/small_logo.png) !important;
+		}
+	}
+	@media only screen and (max-width: 580px) {
+		#logo {
+			display: none !important;
+		}
+		.extra h1 {
+			font-size: 32px;
+		}
+		.extra p {
+			font-size: 16px;
+		}
+		.game {
+		width: 100% !important;
+		}
+		.discount {
+			display: none !important;
+		}
+		.original {
+			display: none !important;
+		}
+	}
