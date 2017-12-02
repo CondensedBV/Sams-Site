@@ -57,9 +57,129 @@ function AddTile(game) {
 	var p = document.createElement("p");
 	p.innerHTML = game.Description;
 	extra.appendChild(p);
+
+	if (game.MinSpecs || game.RecSpecs) {
+		var Requirements = document.createElement("div");
+		Requirements.classList.add("panel");
+		extra.appendChild(Requirements);
+		var h1 = document.createElement("h1");
+		h1.innerHTML = "System Requirements";
+		Requirements.appendChild(h1);
+		if (game.MinSpecs) {
+			var table = document.createElement("table");
+			Requirements.appendChild(table);
+			for (var i = 0; i < 6; i++) {
+				var row = document.createElement("tr");
+				table.appendChild(row);
+				switch (i) {
+					case 0:
+						var data = document.createElement("th");
+						data.innerHTML = "Minimum System Requirements";
+						data.colSpan = 2;
+						row.appendChild(data);
+						break;
+					case 1:
+						var data = document.createElement("td");
+						data.innerHTML = "Operating System";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.MinSpecs.OS;
+						row.appendChild(data);
+						break;
+					case 2:
+						var data = document.createElement("td");
+						data.innerHTML = "Processor";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.MinSpecs.Processor;
+						row.appendChild(data);
+						break;
+					case 3:
+						var data = document.createElement("td");
+						data.innerHTML = "Memory";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.MinSpecs.Memory + "GB";
+						row.appendChild(data);
+						break;
+					case 4:
+						var data = document.createElement("td");
+						data.innerHTML = "Hard disk space";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.MinSpecs.HardDisk + "GB";
+						row.appendChild(data);
+						break;
+					case 5:
+						var data = document.createElement("td");
+						data.innerHTML = "Video Card";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.MinSpecs.VideoCard;
+						row.appendChild(data);
+						break;
+				}
+			}
+		}
+		if (game.RecSpecs) {
+			var table = document.createElement("table");
+			Requirements.appendChild(table);
+			for (var i = 0; i < 6; i++) {
+				var row = document.createElement("tr");
+				table.appendChild(row);
+				switch (i) {
+					case 0:
+						var data = document.createElement("th");
+						data.innerHTML = "Recommendend System Requirements";
+						data.colSpan = 2;
+						row.appendChild(data);
+						break;
+					case 1:
+						var data = document.createElement("td");
+						data.innerHTML = "Operating System";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.RecSpecs.OS;
+						row.appendChild(data);
+						break;
+					case 2:
+						var data = document.createElement("td");
+						data.innerHTML = "Processor";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.RecSpecs.Processor;
+						row.appendChild(data);
+						break;
+					case 3:
+						var data = document.createElement("td");
+						data.innerHTML = "Memory";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.RecSpecs.Memory + "GB";
+						row.appendChild(data);
+						break;
+					case 4:
+						var data = document.createElement("td");
+						data.innerHTML = "Hard disk space";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.RecSpecs.HardDisk + "GB";
+						row.appendChild(data);
+						break;
+					case 5:
+						var data = document.createElement("td");
+						data.innerHTML = "Video Card";
+						row.appendChild(data);
+						var data = document.createElement("td");
+						data.innerHTML = game.RecSpecs.VideoCard;
+						row.appendChild(data);
+						break;
+				}
+			}
+		}
+	}
 	return GameDiv;
 }
-
 //retrieve Games and add to the grid.
 for (var i = 0; i < Games.length; i++) {
 	AddTile(Games[i]);

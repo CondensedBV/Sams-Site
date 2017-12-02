@@ -22,6 +22,7 @@
 h1 {
 	text-align: center;
 	user-select: none;
+	text-decoration: underline;
 }
 
 p {
@@ -303,6 +304,44 @@ body>img {
 
 .close:hover {
 	filter: brightness(350%);
+}
+
+.panel {
+	margin-top: 4vh;
+	background-color: rgba(0, 0, 0, 0.75);
+	padding: 0;
+	padding-bottom: 2.5%;
+	text-align: center;
+}
+
+.panel h1 {
+	background-color: transparent;
+}
+
+.panel table {
+	text-align: left;
+	display: inline-table;
+	text-align: center;
+	border-collapse: collapse;
+	margin-left: 2.5vmin;
+	margin-right: 2.5vmin;
+}
+
+.panel td {
+	color: gray;
+	text-align: right;
+	border: 2px solid rgba(128, 128, 128, 0.25);
+	padding: 1vmin;
+}
+
+.panel td:last-child {
+	text-align: left;
+	color: white;
+}
+
+.panel th {
+	font-size: 1.25em;
+	color: var(--Accent);
 }
 
 

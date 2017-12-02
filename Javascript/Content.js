@@ -8,14 +8,14 @@
 		Discount: 99,
 		ImageUrl:"Images/Games/GamePlaceholder.jpg",
 		MinSpecs: {
-			MinOS:"Windows 2.11",
+			OS:"Windows 2.11",
 			Processor: "Intel i3",
 			Memory: 1.5,
 			HardDisk: 15,
 			VideoCard: "DirectX 9.0"
 		},
 		RecSpecs: {
-			MinOS:"Windows 2.11",
+			OS:"Windows 2.11",
 			Processor: "Intel i3",
 			Memory: 1.5,
 			HardDisk: 15,
@@ -30,7 +30,22 @@ var Games = [{
 		Description: "Call of Duty®: Black Ops II, dat de grenzen verlegt van de records vestigende entertainmentfranchise waar de fans gewend aan zijn, stuurt spelers naar de nabije toekomst, de Koude Oorlog van de 21e eeuw, waar technologie en wapens samenkomen om een nieuwe generatie oorlogsvoering te creëren.",
 		Price: 59.99,
 		Discount: 25,
-		ImageUrl: "Images/Games/blackops2.jpg"
+		ImageUrl: "Images/Games/blackops2.jpg",
+		MinSpecs: {
+			OS: "Windows Vista SP2",
+			Processor: "Intel Core2 Duo",
+			Memory: 2,
+			HardDisk: 16,
+			VideoCard: "Nvidia GeForce 8800GT or ATI Radeon HD 3870"
+		},
+		RecSpecs: {
+			OS: "Windows 10",
+			Processor: "Intel i7",
+			Memory: 16,
+			HardDisk: 16,
+			VideoCard: "Nvidia GeForce Titan X"
+		}
+
 	},
 	{
 		Name: "Borderlands 2",
