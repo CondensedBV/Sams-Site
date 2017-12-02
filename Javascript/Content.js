@@ -6,13 +6,26 @@
 		Description: "A small description of 5 lines max.",
 		Price: 5.00,
 		Discount: 99,
-		ImageUrl:"Images/Games/GamePlaceholder.jpg"
+		ImageUrl:"Images/Games/GamePlaceholder.jpg",
+		MinSpecs: {
+			MinOS:"Windows 2.11",
+			Processor: "Intel i3",
+			Memory: 1.5,
+			HardDisk: 15,
+			VideoCard: "DirectX 9.0"
+		},
+		RecSpecs: {
+			MinOS:"Windows 2.11",
+			Processor: "Intel i3",
+			Memory: 1.5,
+			HardDisk: 15,
+			VideoCard: "DirectX 9.0"
+		}
 	}
 	--------
 */
 
-var Games = [
-	{
+var Games = [{
 		Name: "Call of Duty: Black Ops II",
 		Description: "Call of Duty®: Black Ops II, dat de grenzen verlegt van de records vestigende entertainmentfranchise waar de fans gewend aan zijn, stuurt spelers naar de nabije toekomst, de Koude Oorlog van de 21e eeuw, waar technologie en wapens samenkomen om een nieuwe generatie oorlogsvoering te creëren.",
 		Price: 59.99,
@@ -115,28 +128,28 @@ var Games = [
 		Description: "Bethesda Game Studios, de bekroonde makers van Fallout 3 en The Elder Scrolls V: Skyrim, heten je welkom in de wereld van Fallout 4 - hun meest ambitieuze spel ooit, en de volgende generatie van open-world gaming.",
 		Price: 59.99,
 		Discount: 10,
-		ImageUrl:"Images/Games/fallout4.jpg"
+		ImageUrl: "Images/Games/fallout4.jpg"
 	},
 	{
 		Name: "Saints Row IV",
 		Description: " De President van de VS moet de aarde redden van buitenaardse overlord Zinyak met behulp van een arsenaal van grootmachten en vreemde wapens in de wildste open world spel ooit.",
 		Price: 19.99,
 		Discount: 0,
-		ImageUrl:"Images/Games/saintrow4.jpg"
+		ImageUrl: "Images/Games/saintrow4.jpg"
 	},
 	{
 		Name: "Broforce",
 		Description: " Wanneer kwaad dreigt de wereld, de wereld roept Broforce - een ondergefinancierd, overdreven aangedreven paramilitaire organisatie omgaan uitsluitend in buitensporig geweld. Koppel uw lendenen met maximaal vier spelers om te draaien pistool als tientallen verschillende bros en elimineren de tegengestelde terroristische krachten die een bedreiging vormen",
 		Price: 13.99,
 		Discount: 0,
-		ImageUrl:"Images/Games/broforce.jpg"
+		ImageUrl: "Images/Games/broforce.jpg"
 	},
 	{
 		Name: "Overcooked",
 		Description: " Gaar is een chaotische Bank co-op koken spel voor één tot vier spelers. Werken als een team, moeten u en uw collega koks bereiden, koken en serveren van een verscheidenheid van smakelijke orders voor de baying klanten storm uit in een huff.",
 		Price: 15.99,
 		Discount: 0,
-		ImageUrl:"Images/Games/Overcooked.jpg"
+		ImageUrl: "Images/Games/Overcooked.jpg"
 	},
 
 ];
