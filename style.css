@@ -31,6 +31,7 @@ p {
 
 body {
 	padding-top: 65px;
+	padding-right: -15px;
 	text-align: center;
 	color: white;
 }
@@ -267,10 +268,10 @@ body>img {
 
 /*storepage*/
 
-.extend {
+.extra.extend {
 	transition: 0.5s;
 	z-index: 9999;
-	background-position: fixed;
+	background-position: center;
 	background-size: cover;
 	padding-top: 85px;
 	opacity: 1;
@@ -279,19 +280,19 @@ body>img {
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
 	width: 90%;
-	height: 100%;
 }
 
-.extend h1 {
+.extend>h1 {
+	display: block;
 	background-color: rgba(0, 0, 0, 0.75);
 	padding: 0;
 	padding-bottom: 2.5%;
 	margin: 0;
 }
 
-.extend p {
+.extend>p {
+	display: block;
 	background-color: rgba(0, 0, 0, 0.75);
 	padding-bottom: 2.5%;
 	margin: 0;
@@ -322,10 +323,6 @@ body>img {
 	text-align: center;
 }
 
-.panel h1 {
-	background-color: transparent;
-}
-
 .panel table {
 	text-align: left;
 	display: inline-table;
@@ -337,6 +334,7 @@ body>img {
 }
 
 .panel td {
+	user-select: none;
 	margin: 0;
 	color: gray;
 	text-align: right;
@@ -366,14 +364,24 @@ img::selection {
 }
 
 ::-webkit-scrollbar {
-	padding: 5px;
-	width: 6px;
+    width: 15px;
 }
 
-::-webkit-scrollbar-thumb {
+/* Track */
+::-webkit-scrollbar-track {
 	border-radius: 10px;
-	background: rgba(0, 10, 0, 0.2);
-	width: 6px;
+	background-color: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.6); 
 }
 
 
@@ -393,19 +401,20 @@ img::selection {
 	nav {
 		align-items: center !important;
 	}
-	.extend {
-		padding: 0;
-		padding-top: 70px;
-		padding-right: 10;
-		width: 100%;
+	.extra.extend {
+		padding: 0 !important;
+		padding-top: 85px !important;
 	}
-	.extend p {
-		padding: 5;
+	.extend {
+		padding-top: 85px;
+		width: 100vw !important;
+	}
+	.extend .panel {
 		width: 100%;
 	}
 	.extend h1 {
 		width: 100% !important;
-		padding-right: -5px !important;
+		padding: 0;
 	}
 	#logo {
 		width: 45px !important;
