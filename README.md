@@ -1,2 +1,2 @@
 # Sams-Site
-[site]()
+[site](https://condensedbv.github.io/Sams-Site/)
