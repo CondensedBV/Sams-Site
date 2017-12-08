@@ -265,17 +265,17 @@ var Games = [{
 	ImageUrl: "Images/Games/left4dead2.jpg",
 	MinSpecs: {
 		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		Processor: "Pentium 4 3.0GHz",
+		Memory: 2,
+		HardDisk: 13,
+		VideoCard: "Shader model 2.0. ATI X800"
 	},
 	RecSpecs: {
 		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		Processor: "Intel core 2 duo 2.4GHz",
+		Memory: 2,
+		HardDisk: 13,
+		VideoCard: "ATI X1600 or better"
 	}
 },
 {
@@ -285,16 +285,16 @@ var Games = [{
 	Discount: 99,
 	ImageUrl: "Images/Games/halflife2.jpg",
 	MinSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
+		OS: "Windows xp",
+		Processor: "processor van 1,7 GHz",
+		Memory: 0.512,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
+		OS: "Windows 7",
+		Processor: "Pentium 4-processor (3,0 GHz of meer)",
+		Memory: 1,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	}
@@ -306,18 +306,18 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/plantsvszombie.jpg",
 	MinSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		OS: "Windows xp",
+		Processor: "1.2GHz+ processor",
+		Memory: 1,
+		HardDisk: 0.5,
+		VideoCard: "128 MB videogeheugen"
 	},
 	RecSpecs: {
-		OS: "Windows 2.11",
+		OS: "Windows 7",
 		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		Memory: 1,
+		HardDisk: 0.5,
+		VideoCard: "128 MB videogeheugen"
 	}
 },
 {
@@ -327,17 +327,17 @@ var Games = [{
 	Discount: 10,
 	ImageUrl: "Images/Games/fallout4.jpg",
 	MinSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
+		OS: "Windows 7/8/10 (64-bit OS required)",
+		Processor: "Intel Core i5-2300 2.8 GHz/AMD",
+		Memory: 8,
+		HardDisk: 30,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
+		OS: "Windows 7/8/10 (64-bit OS required)",
+		Processor: "Intel Core i7 4790 3.6 GHz/AMD FX-9590",
+		Memory: 8,
+		HardDisk: 30,
 		VideoCard: "DirectX 9.0"
 	}
 },
@@ -348,18 +348,18 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/saintrow4.jpg",
 	MinSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		OS: "Windows vita",
+		Processor: " Intel Core 2 Quad Q6600",
+		Memory: 4,
+		HardDisk: 10,
+		VideoCard: "NVIDIA GTX 260"
 	},
 	RecSpecs: {
-		OS: "Windows 2.11",
+		OS: "Windows 7",
 		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		Memory: 4,
+		HardDisk: 10,
+		VideoCard: "NVIDIA GTX 560"
 	}
 },
 {
@@ -369,17 +369,17 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/broforce.jpg",
 	MinSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
+		OS: "Windows Vista",
+		Processor: " Intel Core™ Duo",
+		Memory: 4,
+		HardDisk: 1.3,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS: "Windows 2.11",
+		OS: "Windows 7",
 		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
+		Memory: 8,
+		HardDisk: 2,
 		VideoCard: "DirectX 9.0"
 	}
 },
@@ -390,18 +390,18 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/Overcooked.jpg",
 	MinSpecs: {
-		OS: "Windows 2.11",
-		Processor: "Intel i3",
-		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		OS: "Windows 7",
+		Processor: " Dual Core 2.4Ghz",
+		Memory: 2,
+		HardDisk: 0.75,
+		VideoCard: "GeForce 8800 GT"
 	},
 	RecSpecs: {
-		OS: "Windows 2.11",
+		OS: "Windows 7",
 		Processor: "Intel i3",
 		Memory: 1.5,
-		HardDisk: 15,
-		VideoCard: "DirectX 9.0"
+		HardDisk: 1.5,
+		VideoCard: "AMD HD 6850"
 	}
 },
 ];
