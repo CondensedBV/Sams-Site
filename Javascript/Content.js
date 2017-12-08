@@ -405,7 +405,6 @@ var Games = [{
 		VideoCard: "DirectX 9.0"
 	}
 },
-=======
 	},
 	{
 		Name: "Borderlands 2",
@@ -540,6 +539,5 @@ var Games = [{
 		Discount: 0,
 		ImageUrl: "Images/Games/Overcooked.jpg"
 	},
->>>>>>> 8fb5a8b36b4e80bfd023e3729ea2791a1fd823d4
 
 ];
