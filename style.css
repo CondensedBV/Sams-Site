@@ -54,7 +54,10 @@ table {
 
 footer {
 	margin: 0;
-	position: absolute;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background: -webkit-linear-gradient(top, var(--BackColor), var(--DarkAccent));
 	margin-top: 2.5vh;
 	padding-top: 50px;
