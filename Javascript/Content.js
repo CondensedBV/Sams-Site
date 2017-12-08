@@ -26,27 +26,26 @@
 */
 
 var Games = [{
-		Name: "Call of Duty: Black Ops II",
-		Description: "Call of Duty®: Black Ops II, dat de grenzen verlegt van de records vestigende entertainmentfranchise waar de fans gewend aan zijn, stuurt spelers naar de nabije toekomst, de Koude Oorlog van de 21e eeuw, waar technologie en wapens samenkomen om een nieuwe generatie oorlogsvoering te creëren.",
-		Price: 59.99,
-		Discount: 99,
-		ImageUrl: "Images/Games/blackops2.jpg",
-		MinSpecs: {
-			OS: "Windows Vista SP2",
-			Processor: "Intel Core2 Duo",
-			Memory: 2,
-			HardDisk: 16,
-			VideoCard: "Nvidia GeForce 8800GT or ATI Radeon HD 3870"
-		},
-		RecSpecs: {
-			OS: "Windows 10",
-			Processor: "Intel i7",
-			Memory: 16,
-			HardDisk: 16,
-			VideoCard: "Nvidia GeForce Titan X"
-		}
+	Name: "Call of Duty: Black Ops II",
+	Description: "Call of Duty®: Black Ops II, dat de grenzen verlegt van de records vestigende entertainmentfranchise waar de fans gewend aan zijn, stuurt spelers naar de nabije toekomst, de Koude Oorlog van de 21e eeuw, waar technologie en wapens samenkomen om een nieuwe generatie oorlogsvoering te creëren.",
+	Price: 59.99,
+	Discount: 99,
+	ImageUrl: "Images/Games/blackops2.jpg",
+	MinSpecs: {
+		OS: "Windows Vista SP2",
+		Processor: "Intel Core2 Duo",
+		Memory: 2,
+		HardDisk: 16,
+		VideoCard: "Nvidia GeForce 8800GT or ATI Radeon HD 3870"
+	},
+	RecSpecs: {
+		OS: "Windows 10",
+		Processor: "Intel i7",
+		Memory: 16,
+		HardDisk: 16,
+		VideoCard: "Nvidia GeForce Titan X"
+	}
 
-<<<<<<< HEAD
 },
 {
 	Name: "Borderlands 2",
@@ -76,14 +75,14 @@ var Games = [{
 	Discount: 95,
 	ImageUrl: "Images/Games/Gmod.png",
 	MinSpecs: {
-		OS:"Windows® Vista/XP",
+		OS: "Windows® Vista/XP",
 		Processor: "Intel i3",
 		Memory: 2,
 		HardDisk: 5,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows® 7/8/8.1/10",
+		OS: "Windows® 7/8/8.1/10",
 		Processor: "Intel i5",
 		Memory: 8,
 		HardDisk: 10,
@@ -97,14 +96,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/needforspeedhotpursuit.jpg",
 	MinSpecs: {
-		OS:"Windows XP SP3",
+		OS: "Windows XP SP3",
 		Processor: "Intel Core® 2 Duo 2.0 GHZ",
 		Memory: 1,
 		HardDisk: 8,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 7 (32- of 64-bit)",
+		OS: "Windows 7 (32- of 64-bit)",
 		Processor: "Intel i5",
 		Memory: 8,
 		HardDisk: 20,
@@ -118,14 +117,14 @@ var Games = [{
 	Discount: 25,
 	ImageUrl: "Images/Games/thebindingofisaac.png",
 	MinSpecs: {
-		OS:"Windows XP",
+		OS: "Windows XP",
 		Processor: "Intel Core 2 Duo",
 		Memory: 0.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:" Windows 8 / 7",
+		OS: " Windows 8 / 7",
 		Processor: "Intel i3",
 		Memory: 8,
 		HardDisk: 0.5,
@@ -139,14 +138,14 @@ var Games = [{
 	Discount: 50,
 	ImageUrl: "Images/Games/payday2.jpg",
 	MinSpecs: {
-		OS:"Windows 7",
+		OS: "Windows 7",
 		Processor: "Intel i3",
 		Memory: 4,
 		HardDisk: 31,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 10",
+		OS: "Windows 10",
 		Processor: "Intel i5",
 		Memory: 8,
 		HardDisk: 45,
@@ -160,14 +159,14 @@ var Games = [{
 	Discount: 89,
 	ImageUrl: "Images/Games/minecraft.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel platinum",
 		Memory: 2,
 		HardDisk: 20,
 		VideoCard: "DirectX 9.0",
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i5",
 		Memory: 8,
 		HardDisk: 50,
@@ -181,14 +180,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/SidMeiersCivilizationVI.png",
 	MinSpecs: {
-		OS:"Windows 7",
+		OS: "Windows 7",
 		Processor: "Intel i3",
 		Memory: 4,
 		HardDisk: 12,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 7",
+		OS: "Windows 7",
 		Processor: "Intel i5",
 		Memory: 8,
 		HardDisk: 12,
@@ -202,14 +201,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/rocketleague.jpg",
 	MinSpecs: {
-		OS:" Windows 7",
+		OS: " Windows 7",
 		Processor: "Intel i3",
 		Memory: 2,
 		HardDisk: 7,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:" Windows 7",
+		OS: " Windows 7",
 		Processor: "Intel i5",
 		Memory: 4,
 		HardDisk: 7,
@@ -223,14 +222,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/cuphead.jpg",
 	MinSpecs: {
-		OS:"Windows 7",
+		OS: "Windows 7",
 		Processor: "Intel Core2 Duo E8400",
 		Memory: 2,
 		HardDisk: 20,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 7",
+		OS: "Windows 7",
 		Processor: "Intel i3",
 		Memory: 4,
 		HardDisk: 20,
@@ -244,14 +243,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/Csgo.jpg",
 	MinSpecs: {
-		OS:"Windows XP",
+		OS: "Windows XP",
 		Processor: "Intel® Core™ 2 Duo E6600",
 		Memory: 2,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 7",
+		OS: "Windows 7",
 		Processor: "Intel i5",
 		Memory: 8,
 		HardDisk: 15,
@@ -265,14 +264,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/left4dead2.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
@@ -286,14 +285,14 @@ var Games = [{
 	Discount: 99,
 	ImageUrl: "Images/Games/halflife2.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
@@ -307,14 +306,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/plantsvszombie.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
@@ -328,14 +327,14 @@ var Games = [{
 	Discount: 10,
 	ImageUrl: "Images/Games/fallout4.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
@@ -349,14 +348,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/saintrow4.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
@@ -370,14 +369,14 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/broforce.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
@@ -391,20 +390,21 @@ var Games = [{
 	Discount: 0,
 	ImageUrl: "Images/Games/Overcooked.jpg",
 	MinSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	},
 	RecSpecs: {
-		OS:"Windows 2.11",
+		OS: "Windows 2.11",
 		Processor: "Intel i3",
 		Memory: 1.5,
 		HardDisk: 15,
 		VideoCard: "DirectX 9.0"
 	}
 },
+<<<<<<< HEAD
 	},
 	{
 		Name: "Borderlands 2",
@@ -540,4 +540,6 @@ var Games = [{
 		ImageUrl: "Images/Games/Overcooked.jpg"
 	},
 
+=======
+>>>>>>> ba0f5cc9c83f1464890c292367008cbc086dc73f
 ];
