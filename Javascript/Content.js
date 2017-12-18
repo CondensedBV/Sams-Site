@@ -404,4 +404,88 @@ var Games = [{
 		VideoCard: "AMD HD 6850"
 	}
 },
+{
+	Name: "GTA V",
+	Description: "Een jonge hustler, een gepensioneerde bankrover en een angstaanjagende psychopaat moeten een reeks gevaarlijke overvallen uitvoeren en zien te overleven in een meedogenloze stad waarin ze niemand kunnen vertrouwen, en elkaar nog het minst.",
+	Price: 59.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/gtaV.jpg",
+	MinSpecs: {
+		OS:"Windows 7 64-bits,",
+		Processor: " Intel Core 2 Quad Q6600, 2,40 GHz",
+		Memory: 4,
+		HardDisk: 72,
+		VideoCard: "NVIDIA 9800 GT 1 GB"
+	},
+	RecSpecs: {
+		OS:"Windows 10",
+		Processor: " Intel Core i5 3470, 3,2 GHZ",
+		Memory: 8,
+		HardDisk: 72,
+		VideoCard: "GeForce GTX 1080 Ti"
+	}
+},
+{
+	Name: "Ultimate Chicken Horse",
+	Description: "Ultimate Chicken Horse is a party platformer game where you build the level as you play, placing traps and hazards to screw your friends over, but trying not to screw yourself.",
+	Price: 19.99,
+	Discount: 40,
+	ImageUrl:"Images/Games/UltimateChickenHorseLogo.png",
+	MinSpecs: {
+		OS:"Windows XP SP2",
+		Processor: "Intel i3",
+		Memory: 2,
+		HardDisk: 2,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i5",
+		Memory: 4,
+		HardDisk: 15,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "Hotline Miami",
+	Description: "Hotline Miami is een intens actiespel met rauwe brutaliteit, koudbloedig geweergebruik en schedelverpletterende hand-tot-handgevechten in overvloed.",
+	Price: 9.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/hotlinemaimi.jpg",
+	MinSpecs: {
+		OS:"Windows xp",
+		Processor: "Intel i3",
+		Memory: 1,
+		HardDisk: 0.25,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 10",
+		Processor: "Intel i5",
+		Memory: 1.5,
+		HardDisk: 0.25,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "PLAYERUNKNOWN'S BATTLEGROUNDS",
+	Description: "PLAYERUNKNOWN'S BATTLEGROUNDS is a last-man-standing shooter being developed with community feedback. Players must fight to locate weapons and supplies in a massive 8x8 km island to be the lone survivor. This is BATTLE ROYALE.",
+	Price: 59.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/PLAYERUNKNOWN'SBATTLEGROUNDS.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i3",
+		Memory: 6,
+		HardDisk: 30,
+		VideoCard: "Nvidia GeForce GTX 660 2GB "
+	},
+	RecSpecs: {
+		OS:"Windows 10",
+		Processor: "Intel i5",
+		Memory: 8,
+		HardDisk: 30,
+		VideoCard: "GeForce GTX 1080 Ti"
+	}
+},
 ];
