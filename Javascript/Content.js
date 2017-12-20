@@ -488,4 +488,235 @@ var Games = [{
 		VideoCard: "GeForce GTX 1080 Ti"
 	}
 },
+{
+	Name: "red dead redemption 2",
+	Description: "Red Dead Redemption 2 is een action-adventurespel in ontwikkeling bij verschillende Rockstar studio's. Het spel wordt uitgegeven door Rockstar Games en zal in de lente van 2018 uitkomen voor PlayStation 4 en Xbox One. Het is de opvolger van Red Dead Redemption, dat in 2010 uitkwam.",
+	Price: 59.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/reddeadredemption2.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i3",
+		Memory: 4,
+		HardDisk: 30,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i5",
+		Memory: 8,
+		HardDisk: 30,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "Planet Coaster",
+	Description: "Planet Coaster® - the future of coaster park simulation games has arrived! Surprise, delight and thrill incredible crowds as you build your coaster park empire - let your imagination run wild, and share your success with the world.",
+	Price: 37.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/PlanetCoaster.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i5",
+		Memory: 8,
+		HardDisk: 8,
+		VideoCard: " Nvidia GTX 560 (2GB)"
+	},
+	RecSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i7",
+		Memory: 8,
+		HardDisk: 12,
+		VideoCard: " Nvidia GTX 980 (4GB)"
+	}
+},
+{
+	Name: "Bounty Train",
+	Description: "Ontdek het gevaarlijke leven, de accurate historische gebeurtenissen en de moderne uitvindingen in het Noord-Amerika van de 19e eeuw. Verwerf een van de meest legendarische stoommachines en vorm het om tot een ondoordringbaar fort op wielen.",
+	Price: 24.99,
+	Discount: 60,
+	ImageUrl:"Images/Games/BountyTrain.jpg",
+	MinSpecs: {
+		OS:"Windows 2.11",
+		Processor: "Intel i3",
+		Memory: 4,
+		HardDisk: 2,
+		VideoCard: "GeForce 9600 GT"
+	},
+	RecSpecs: {
+		OS:"Windows 2.11",
+		Processor: "Intel i5",
+		Memory: 6,
+		HardDisk: 2,
+		VideoCard: "GeForce 9600 GT"
+	}
+},
+{
+	Name: "Total War: WARHAMMER II ",
+	Description: "Strategy gaming perfected. A breath-taking campaign of exploration, expansion and conquest across a fantasy world. Turn-based civilisation management and real-time epic strategy battles with thousands of troops and monsters at your command.",
+	Price: 59.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/TotalWarWARHAMMERII.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i3",
+		Memory: 5,
+		HardDisk: 60,
+		VideoCard: "NVIDIA GTX 460 1GB"
+	},
+	RecSpecs: {
+		OS:"Windows 10",
+		Processor: "Intel i5",
+		Memory: 8,
+		HardDisk: 60,
+		VideoCard: "NVIDIA GeForce GTX 770 4GB"
+	}
+},
+{
+	Name: "Bridge Constructor Portal",
+	Description: "Betreed het Aperture Science Verrijkingscentrum en ervaar Bridge Constructor Portal - de unieke samenvoeging van de klassieke Portal™ - en Bridge Constructor™-games.",
+	Price: 9.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/BridgeConstructorPortal.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i3",
+		Memory: 2,
+		HardDisk: 0.2,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i5",
+		Memory: 8,
+		HardDisk: 1,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "Keep Talking and Nobody Explodes",
+	Description: "Find yourself trapped alone in a room with a ticking time bomb. Your friends have the manual to defuse it, but they can't see the bomb, so you're going to have to talk it out – fast!",
+	Price: 14.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/KeepTalkingandNobodyExplodes.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i3",
+		Memory: 2,
+		HardDisk: 1,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i5",
+		Memory: 4,
+		HardDisk: 5,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "BattleBlock Theater®",
+	Description: "Welcome to BattleBlock Theater! You’ve got no where to go but up...on stage. Play single player or co-op to free your friends and save Hatty Hattington! Jump, solve and battle your way through a mysterious theater inhabited by highly technological felines.",
+	Price: 14.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/battleblocktheater.jpg",
+	MinSpecs: {
+		OS:"Windows XP",
+		Processor: "Intel i3",
+		Memory: 1,
+		HardDisk: 1,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i5",
+		Memory: 4,
+		HardDisk: 1,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "Genital Jousting",
+	Description: "Genital Jousting is an online and local multiplayer party game about flaccid penises and wiggly anuses for up to eight players at once.",
+	Price: 4.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/GenitalJousting.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i3",
+		Memory: 4,
+		HardDisk: 0.5,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 10",
+		Processor: "Intel i5",
+		Memory: 8,
+		HardDisk: 1,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "Race The Sun",
+	Description: "Je bent een ruimtevaartuig op zonne-energie. De zon is je doodsklok. Suis in een razend tempo richting de zonsondergang in een vergeefse race tegen de klok. Stel het onvermijdelijke uit door snelheidsboosts te vangen die de ondergaande zon laten omkeren - al is het maar voor even.",
+	Price: 9.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/RaceTheSun.jpg",
+	MinSpecs: {
+		OS:"Windows XP",
+		Processor: "Intel i3",
+		Memory: 2,
+		HardDisk: 0.5,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 10",
+		Processor: "Intel i5",
+		Memory: 4,
+		HardDisk: 1,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "Star Wars: Battlefront 2 (Classic, 2005)",
+	Description: "Join the rise of Darth Vader’s elite 501st Legion of Stormtroopers as you fight through an all new story-based saga where every action you take impacts the battlefront and, ultimately, the fate of the Star Wars galaxy.",
+	Price: 9.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/StarWarsBattlefront2.jpg",
+	MinSpecs: {
+		OS:"Windows XP",
+		Processor: "Intel i3",
+		Memory: 1,
+		HardDisk: 4.3,
+		VideoCard: "DirectX 9.0"
+	},
+	RecSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i5",
+		Memory: 2,
+		HardDisk: 4.3,
+		VideoCard: "DirectX 9.0"
+	}
+},
+{
+	Name: "Spintires: MudRunner",
+	Description: "Spintires: MudRunner, de ultieme versie van de miljoenen verkoop-hit Spintires, komt met een lading nieuwe content en functies. Bestuur 19 ongelooflijke terreinwagens door een extreem landschap. Het is niet alleen een verbeterde editie, het is de ultieme off-road simulatue ervaring!",
+	Price: 29.99,
+	Discount: 0,
+	ImageUrl:"Images/Games/SpintiresMudRunner.jpg",
+	MinSpecs: {
+		OS:"Windows 7",
+		Processor: "Intel i3",
+		Memory: 2,
+		HardDisk: 1,
+		VideoCard: "NVIDIA GeForce 9600 GT"
+	},
+	RecSpecs: {
+		OS:"Windows 10",
+		Processor: "Intel i5",
+		Memory: 4,
+		HardDisk: 1,
+		VideoCard: " NVIDIA GeForce GTX 470"
+	}
+},
 ];
