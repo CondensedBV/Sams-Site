@@ -180,7 +180,9 @@ nav #logo {
 	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .8);
 	max-width: 100%;
 }
-
+.game iframe {
+	max-width: 100%;
+}
 .game .info {
 	position: absolute;
 	bottom: 0;

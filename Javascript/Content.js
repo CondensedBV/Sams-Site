@@ -31,6 +31,7 @@ var Games = [{
 		Price: 59.99,
 		Discount: 99,
 		ImageUrl: "Images/Games/blackops2.jpg",
+		VideoUrl: "https://www.youtube.com/embed/j68fPLtqJdo",
 		MinSpecs: {
 			OS: "Windows Vista SP2",
 			Processor: "Intel Core2 Duo",

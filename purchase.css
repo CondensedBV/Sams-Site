@@ -1,0 +1,129 @@
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	src: local('Lato Regular'), url(https://fonts.gstatic.com/s/lato/v14/UyBMtLsHKBKXelqf4x7VRQ.woff2);
+}
+
+:root {
+	--Accent: 66, 105, 121;
+	--DarkAccent: 0, 101, 134;
+	--Accent2: 173, 255, 47;
+	--DarkAccent2: 118, 173, 29;
+	--Accent3: 22, 111, 146;
+	--BackColor: 0, 61, 80;
+	font-weight: 600;
+	font-family: Lato, sans-serif;
+	background-color: var(--BackColor);
+	background: url(Images/background.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+body {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	user-select: none;
+	text-transform: uppercase;
+	color: white;
+	border-bottom: 2px solid rgb(var(--Accent));
+	max-width: 75%;
+	margin: auto;
+	margin-top: 25px;
+}
+button {
+	background: rgb(var(--Accent2));
+	border: 0;
+	padding: 10px 45px;
+	color: rgb(var(--Accent));
+	font-size: 16px;
+	border-radius: 5px;
+}
+button:hover {
+	background: -webkit-radial-gradient(rgb(var(--Accent2)),rgb(var(--DarkAccent2)));	
+}
+.progressbar {
+	width: 75vw;
+	height: 25px;
+	margin: 15px auto;
+}
+.progressbar .line {
+	position: relative;
+	top: 12.5px;
+	margin-top: 25px;
+	width: 75vw;
+	height: 0px;
+	border: 1px solid white;
+	border-radius: 25%;
+}
+.progressbar .value {
+	position: relative;
+	top: 0;
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	border-radius: 100%;
+}
+.progressbar[Marquee] .value {
+	animation: Marquee 5s infinite;
+	animation-timing-function: ease-in-out;
+}
+.TermsConditions {
+	font-family: Courier New, Courier, monospace;
+	white-space: pre-line;
+	word-wrap:break-word;
+	color: white;
+	background-color: rgb(var(--BackColor));
+	border-radius: 5px;
+	font-size: 22px;
+	max-height: 50%;
+	overflow-y: auto;
+	overflow-x: unset;
+	border: 2px solid black;
+	margin: 25px 25px;
+}
+#Content {
+	display: inline-block;
+	background: -webkit-linear-gradient(bottom, rgba(var(--Accent3), 0.9),rgba(var(--BackColor), 0.9));
+	width: 75vw;
+	min-height: 75vh;
+	border-radius: 25px;
+}
+
+::selection {
+	background-color: var(--Accent3);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.6); 
+}
+
+@keyframes Marquee {
+	0% {
+		left: 0%;
+	}
+	50% {
+		left: 100%;
+	}
+	100% {
+		left: 0%;
+	}
+}
