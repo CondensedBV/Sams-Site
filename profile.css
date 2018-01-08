@@ -1,0 +1,57 @@
+body {
+	padding-left: 1vmin;
+	padding-right: 1vmin;
+}
+/*profile picture*/
+.profile {
+	border-radius: 100%;
+	height: 35vh;
+	border: 2px solid gray;
+	transition: transform 0.2s, filter 0.25s;
+}
+.profile:hover {
+	filter: drop-shadow(0px 0px 10px rgba(0,0,0,1));
+	transform: scale(1.05);
+}
+/*profile name*/
+.profile+h1 {
+	font-size: 32px;
+	margin: 0px;
+	color: white;
+}
+/*Online status*/
+.online {
+	border: 2px solid lime;
+}
+.online ~ p {
+	content: "Online";
+	color: rgb(0, 175, 0);	
+}
+.profile+h1+p {
+	margin: 0;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*online friends*/
+.Profilebox {
+	text-align: center;
+	display: inline-block;
+	height: 128px;
+	width: 128px;
+	padding: 1vmin;
+	margin: 0;
+}
+.profilebox .profile {
+	display: inline;
+	height: 112px;
+}
+.profilebox p {
+	font-weight: bold;
+	word-wrap: break-word;
+	display: inline-block;
+	width: 100%;
+	margin-top: -0px;
+}
