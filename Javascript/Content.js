@@ -165,7 +165,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 89,
 		ImageUrl: "Images/Games/minecraft.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/FaMTedT6P0I",
 		MinSpecs: {
 			OS: "Windows 2.11",
 			Processor: "Intel platinum",
@@ -187,7 +187,7 @@ var Games = [{
 		Price: 59.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/SidMeiersCivilizationVI.png",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/6z5WbNMRe_g",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
@@ -209,7 +209,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/rocketleague.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/Vawwy2eu5sA",
 		MinSpecs: {
 			OS: " Windows 7",
 			Processor: "Intel i3",
@@ -231,7 +231,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/cuphead.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/D-1n15aIgsE",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel Core2 Duo E8400",
@@ -253,7 +253,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/Csgo.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/bvI62FUDpKA",
 		MinSpecs: {
 			OS: "Windows XP",
 			Processor: "Intel® Core™ 2 Duo E6600",
@@ -275,7 +275,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/left4dead2.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/9XIle_kLHKU",
 		MinSpecs: {
 			OS: "Windows 2.11",
 			Processor: "Pentium 4 3.0GHz",
@@ -297,7 +297,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 99,
 		ImageUrl: "Images/Games/halflife2.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/ID1dWN3n7q4",
 		MinSpecs: {
 			OS: "Windows xp",
 			Processor: "processor van 1,7 GHz",
@@ -319,7 +319,7 @@ var Games = [{
 		Price: 4.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/plantsvszombie.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/CHAbHz8iYHc",
 		MinSpecs: {
 			OS: "Windows xp",
 			Processor: "1.2GHz+ processor",
@@ -341,7 +341,7 @@ var Games = [{
 		Price: 59.99,
 		Discount: 10,
 		ImageUrl: "Images/Games/fallout4.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/GE2BkLqMef4",
 		MinSpecs: {
 			OS: "Windows 7/8/10 (64-bit OS required)",
 			Processor: "Intel Core i5-2300 2.8 GHz/AMD",
@@ -363,7 +363,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/saintrow4.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/8LYfCs5bfyI",
 		MinSpecs: {
 			OS: "Windows vita",
 			Processor: " Intel Core 2 Quad Q6600",
@@ -385,7 +385,7 @@ var Games = [{
 		Price: 13.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/broforce.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/8mOAQ7t9JjY",
 		MinSpecs: {
 			OS: "Windows Vista",
 			Processor: " Intel Core™ Duo",
@@ -407,7 +407,7 @@ var Games = [{
 		Price: 15.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/Overcooked.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/0ZK7veYPEJQ",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: " Dual Core 2.4Ghz",
@@ -429,7 +429,7 @@ var Games = [{
 		Price: 59.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/gtaV.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/QkkoHAzjnUs",
 		MinSpecs: {
 			OS: "Windows 7 64-bits,",
 			Processor: " Intel Core 2 Quad Q6600, 2,40 GHz",
@@ -451,7 +451,7 @@ var Games = [{
 		Price: 19.99,
 		Discount: 40,
 		ImageUrl: "Images/Games/UltimateChickenHorseLogo.png",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/sFdjL4elfPU",
 		MinSpecs: {
 			OS: "Windows XP SP2",
 			Processor: "Intel i3",
@@ -473,7 +473,7 @@ var Games = [{
 		Price: 9.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/hotlinemaimi.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/2o9SUPgyZRY",
 		MinSpecs: {
 			OS: "Windows xp",
 			Processor: "Intel i3",
@@ -495,7 +495,7 @@ var Games = [{
 		Price: 59.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/PLAYERUNKNOWNSBATTLEGROUNDS.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/fsVPtZGisuY",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
@@ -517,7 +517,7 @@ var Games = [{
 		Price: 59.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/reddeadredemption2.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/gmA6MrX81z4",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
@@ -539,7 +539,7 @@ var Games = [{
 		Price: 37.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/PlanetCoaster.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/91Kli1Uwk9g",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i5",
@@ -561,7 +561,7 @@ var Games = [{
 		Price: 24.99,
 		Discount: 60,
 		ImageUrl: "Images/Games/BountyTrain.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/GeeNIh4sMA0",
 		MinSpecs: {
 			OS: "Windows 2.11",
 			Processor: "Intel i3",
@@ -583,7 +583,7 @@ var Games = [{
 		Price: 59.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/TotalWarWARHAMMERII.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/fXxe897bW-A",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
@@ -605,7 +605,7 @@ var Games = [{
 		Price: 9.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/BridgeConstructorPortal.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/ho15qNNe8Gk",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
@@ -627,7 +627,7 @@ var Games = [{
 		Price: 14.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/KeepTalkingandNobodyExplodes.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/C_dNn7aQbmQ",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
@@ -649,7 +649,7 @@ var Games = [{
 		Price: 14.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/battleblocktheater.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/H6_By98v638",
 		MinSpecs: {
 			OS: "Windows XP",
 			Processor: "Intel i3",
@@ -671,7 +671,7 @@ var Games = [{
 		Price: 4.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/GenitalJousting.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/64Jc_9lTObg",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
@@ -693,7 +693,7 @@ var Games = [{
 		Price: 9.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/RaceTheSun.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/QmjAg0e_YYU",
 		MinSpecs: {
 			OS: "Windows XP",
 			Processor: "Intel i3",
@@ -715,7 +715,7 @@ var Games = [{
 		Price: 9.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/StarWarsBattlefront2.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/_q51LZ2HpbE",
 		MinSpecs: {
 			OS: "Windows XP",
 			Processor: "Intel i3",
@@ -737,7 +737,7 @@ var Games = [{
 		Price: 29.99,
 		Discount: 0,
 		ImageUrl: "Images/Games/SpintiresMudRunner.jpg",
-		VideoUrl: "",
+		VideoUrl: "https://www.youtube.com/embed/IDFTTEoLp1I",
 		MinSpecs: {
 			OS: "Windows 7",
 			Processor: "Intel i3",
